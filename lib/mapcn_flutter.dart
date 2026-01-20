@@ -98,7 +98,7 @@ class Mapcn extends StatefulWidget {
   final VoidCallback? onMapReady;
   
   /// Callback when the map camera moves.
-  final Function(MapPosition position, bool hasGesture)? onCameraMove;
+  final Function(MapCamera camera, bool hasGesture)? onCameraMove;
   
   /// List of routes to display on the map
   final List<MapcnRoute> routes;
@@ -564,8 +564,20 @@ class _MapcnState extends State<Mapcn> with TickerProviderStateMixin {
             ),
           ),
         );
+      } else if (route.config.style == RouteStyle.dotted) {
+        // Dotted line - create small dash segments
+        layers.add(
+          PolylineLayer(
+            polylines: _buildDashedPolylines(
+              pointsToRender,
+              route.config.color,
+              route.config.width,
+              [3.0, 6.0], // Small dashes for dotted effect
+            ),
+          ),
+        );
       } else {
-        // Solid or dotted line
+        // Solid line
         layers.add(
           PolylineLayer(
             polylines: [
@@ -575,7 +587,6 @@ class _MapcnState extends State<Mapcn> with TickerProviderStateMixin {
                 strokeWidth: route.config.width,
                 strokeCap: StrokeCap.round,
                 strokeJoin: StrokeJoin.round,
-                isDotted: route.config.style == RouteStyle.dotted,
               ),
             ],
           ),
