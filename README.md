@@ -52,7 +52,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  mapcn_flutter: ^1.0.0
+  mapcn_flutter: ^1.0.2
   latlong2: ^0.9.0
 ```
 
