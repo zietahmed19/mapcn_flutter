@@ -2,7 +2,7 @@
 
 حزمة خريطة جميلة وقابلة للتخصيص بتصميم داكن لـ Flutter مع علامات متحركة، مسارات، ثيمات متعددة، وتحريكات كاميرا سلسة. مبنية على `flutter_map` للتكامل السهل.
 
-![Mapcn Demo](https://via.placeholder.com/800x400?text=Mapcn+Flutter+Demo)
+![Mapcn](https://pub.dev/packages/mapcn_flutter)
 
 ##  المميزات
 

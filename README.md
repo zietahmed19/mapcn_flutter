@@ -4,7 +4,7 @@
 
 A beautiful, customizable dark-themed map widget for Flutter with animated markers, routes, multiple themes, and smooth camera animations. Built on top of `flutter_map` for seamless integration.
 
-![Mapcn Demo](https://via.placeholder.com/800x400?text=Mapcn+Flutter+Demo)
+![Mapcn](https://pub.dev/packages/mapcn_flutter)
 
 ## ✨ Features
 
