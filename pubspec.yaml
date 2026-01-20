@@ -1,10 +1,10 @@
 name: mapcn_flutter
 description: "A beautiful, customizable dark-themed map widget for Flutter with animated markers, routes, multiple themes, and smooth camera animations. Inspired by mapcn.dev."
 version: 1.1.0
-homepage: https://github.com/ahmedziet19/mapcn_flutter
-repository: https://github.com/ahmedziet19/mapcn_flutter
-issue_tracker: https://github.com/ahmedziet19/mapcn_flutter/issues
-documentation: https://github.com/ahmedziet19/mapcn_flutter#readme
+homepage: https://github.com/zietahmed19/mapcn_flutter.git
+repository: https://github.com/zietahmed19/mapcn_flutter.git
+issue_tracker: https://github.com/zietahmed19/mapcn_flutter.git/issues
+documentation: https://github.com/zietahmed19/mapcn_flutter.git#readme
 
 topics:
   - map
