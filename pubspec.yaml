@@ -1,0 +1,36 @@
+name: mapcn_flutter
+description: "A beautiful, customizable dark-themed map widget for Flutter with animated markers, routes, multiple themes, and smooth camera animations. Inspired by mapcn.dev."
+version: 1.1.0
+homepage: https://github.com/AhmedZiet/mapcn_flutter
+repository: https://github.com/AhmedZiet/mapcn_flutter
+issue_tracker: https://github.com/AhmedZiet/mapcn_flutter/issues
+documentation: https://github.com/AhmedZiet/mapcn_flutter#readme
+
+topics:
+  - map
+  - flutter-map
+  - dark-theme
+  - animation
+  - openstreetmap
+
+screenshots:
+  - description: "Mapcn Flutter dark themed map with animated markers"
+    path: screenshots/demo.png
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  latlong2: ^0.9.0
+  flutter_map: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

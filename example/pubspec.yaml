@@ -1,0 +1,19 @@
+name: mapcn_example
+description: "Demonstration app for the mapcn_flutter package."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # This tells the app to use the code from your parent folder
+  mapcn_flutter:
+    path: "C:/Users/Utilisateur/Desktop/Map Package for flutter MAPCN/mapcn_flutter"
+  latlong2: ^0.9.0
+  flutter_map: ^6.1.0
+
+flutter:
+  uses-material-design: true
