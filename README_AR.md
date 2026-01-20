@@ -2,7 +2,35 @@
 
 حزمة خريطة جميلة وقابلة للتخصيص بتصميم داكن لـ Flutter مع علامات متحركة، مسارات، ثيمات متعددة، وتحريكات كاميرا سلسة. مبنية على `flutter_map` للتكامل السهل.
 
-![Mapcn](https://pub.dev/packages/mapcn_flutter)
+## لقطات الشاشة
+
+<p align="center">
+  <img src="screenshots/Screenshot_20260120-150011.png" width="250" alt="الثيم الداكن"/>
+  <img src="screenshots/Screenshot_20260120-150030.png" width="250" alt="متصفح المواقع"/>
+  <img src="screenshots/Screenshot_20260120-150243.png" width="250" alt="أنماط العلامات"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot_20260120-150250.png" width="250" alt="تحريك النبض"/>
+  <img src="screenshots/Screenshot_20260120-150256.png" width="250" alt="علامات ثابتة"/>
+  <img src="screenshots/Screenshot_20260120-150306.png" width="250" alt="تحريك الرادار"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot_20260120-150312.png" width="250" alt="تحريك الحلقة"/>
+  <img src="screenshots/Screenshot_20260120-150318.png" width="250" alt="تحريك التنفس"/>
+  <img src="screenshots/Screenshot_20260120-150326.png" width="250" alt="اختيار الثيم"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot_20260120-150345.png" width="250" alt="ثيم منتصف الليل"/>
+  <img src="screenshots/Screenshot_20260120-150404.png" width="250" alt="ثيم دراكولا"/>
+  <img src="screenshots/Screenshot_20260120-150412.png" width="250" alt="ثيم فضي"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/Screenshot_20260120-150418.png" width="250" alt="ثيم زمردي"/>
+</p>
 
 ##  المميزات
 
