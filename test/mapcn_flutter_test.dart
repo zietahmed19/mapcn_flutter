@@ -116,9 +116,9 @@ class _MapcnTestPageState extends State<TestPage> {
             child: Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: Colors.black.withOpacity(0.8),
+                color: Colors.black.withValues(alpha:0.8),
                 borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: _dynamicAccent.withOpacity(0.5)),
+                border: Border.all(color: _dynamicAccent.withValues(alpha:0.5)),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
